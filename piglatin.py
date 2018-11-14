@@ -2,6 +2,7 @@ pyg = 'ay'
 original_response = raw_input ("Which word would you like translated?")
 word = original_response.lower()
 p = word[0]
+if len(p) > 0:
 new_word = word + p + pyg
 new_word = new_word[1:len(new_word)]
 
